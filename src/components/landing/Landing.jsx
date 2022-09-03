@@ -11,9 +11,11 @@ const Landing = () => {
   return (
       <div className='landingPage'> 
           <Navigation/>      
-          <Table/>
           <Slider />
+      <div className="innerlanding">
+          <Table/>
           <Cards/>
+          </div>
     </div>
   )
 }

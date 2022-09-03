@@ -1,0 +1,51 @@
+.navBar {
+  z-index: 3;
+  width: 100%;
+  height: 15vh;
+  position: fixed;
+  top: 0;
+}
+.topNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0.4rem 0rem;
+}
+.topNav a {
+  color: var(--white);
+}
+.lowNav .logo {
+  width: 20rem;
+}
+.lowNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  background: linear-gradient(
+    45deg,
+    rgba(25, 7, 90, 0.8),
+    rgba(15, 19, 22, 0.9)
+  );
+}
+.lowNav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
+.lowNav ul a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  font-variant: small-caps;
+  transition: 500ms all ease;
+}
+.lowNav ul a:hover {
+  border-bottom: 1px solid var(--white);
+  color: var(--grey);
+  transform: scale(1.2);
+}
